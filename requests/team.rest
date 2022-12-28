@@ -1,0 +1,9 @@
+POST http://localhost:3001/team HTTP/1.1
+content-type: application/json
+
+{
+    "_id": "634a20dc5b0c55eee7903f89",
+    "Player": "Julius Randle",
+    "Pos": "PF",
+    "Tm": "NYK"
+}

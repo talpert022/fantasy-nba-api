@@ -1,0 +1,7 @@
+GET http://localhost:3001/
+
+### 
+GET http://localhost:3001/player/Julius%20Randle
+
+###
+GET http://localhost:3001/players/AST
