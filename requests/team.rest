@@ -7,3 +7,33 @@ content-type: application/json
     "Pos": "PF",
     "Tm": "NYK"
 }
+
+###
+
+POST http://localhost:3001/team HTTP/1.1
+content-type: application/json
+
+{
+    "_id": "634a20dc5b0c55eee7903f6b",
+    "Player": "Chris Paul",
+    "Pos": "PG",
+    "Tm": "PHO"
+}
+
+###
+PUT http://localhost:3001/team/2 HTTP/1.1
+content-type: application/json
+
+{
+    "_id": "634a20dc5b0c55eee7903ec9",
+    "Player": "LeBron James",
+    "Pos": "PF",
+    "Tm": "LAL"
+}
+
+### 
+DELETE http://localhost:3001/team/4
+
+###
+
+GET http://localhost:3001/team
