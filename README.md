@@ -12,12 +12,6 @@
     - (HTTP DELETE) Delete a player from your fantasy team at a certain index if that index exists ✅
 - I want this backend to be a realistic model for how a backend would operate on a mobile frontend.
 
-Todo
-
-- Rebuild readme to look nicer when making repo public
-
-### Questions/revisit
-
 ********Node********
 
 - Look into posting for different kinds of requests, like just player name you would have to do a retrieve, then grab fields, then post. What is realistic?
